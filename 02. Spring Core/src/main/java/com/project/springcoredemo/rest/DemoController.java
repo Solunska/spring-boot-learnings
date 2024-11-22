@@ -1,5 +1,6 @@
-package com.project.springcoredemo;
+package com.project.springcoredemo.rest;
 
+import com.project.springcoredemo.common.Coach;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -16,7 +17,7 @@ public class DemoController {
         myCoach = coach;
     }
 
-    @GetMapping("/dailyWorkout")
+    @GetMapping("/dailyworkout")
     public String getDailyWorkout() {
         return myCoach.getDailyWorkout();
     }

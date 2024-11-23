@@ -1,17 +1,26 @@
 package com.project.springcoredemo.common;
 
-import org.springframework.beans.factory.config.ConfigurableBeanFactory;
-import org.springframework.context.annotation.Lazy;
-import org.springframework.context.annotation.Primary;
-import org.springframework.context.annotation.Scope;
+import jakarta.annotation.PostConstruct;
+import jakarta.annotation.PreDestroy;
 import org.springframework.stereotype.Component;
 
 @Component
-@Scope(ConfigurableBeanFactory.SCOPE_PROTOTYPE)
 public class TrackCoach implements Coach {
 
     public TrackCoach() {
         System.out.println("In constructor: " + this.getClass().getSimpleName());
+    }
+
+    // define our init method
+    @PostConstruct
+    public void doMyStartup() {
+        System.out.println("In doMyStartup(): " + this.getClass().getSimpleName());
+    }
+
+    // define our destroy method
+    @PreDestroy
+    public void doMyCleanup() {
+        System.out.println("In doMyCleanup(): " + this.getClass().getSimpleName());
     }
 
     @Override

@@ -9,12 +9,13 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class DemoController {
 
-    // define a private field for the dependency
     private Coach myCoach;
 
-    // define a constructor for dependency injection
+    // @Qualifier annotation has a higher priority than @Primary annotation
+    // so if a class is annotated with @Primary, and we specify a @Qualifier
+    // the bean specified with @Qualifier will be used
     @Autowired
-    public DemoController(@Qualifier("baseballCoach") Coach coach) {
+    public DemoController(Coach coach) {
         myCoach = coach;
     }
 

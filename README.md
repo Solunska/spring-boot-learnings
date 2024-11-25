@@ -22,47 +22,15 @@ This module introduces the fundamental features of Spring Boot, including tools 
 
 [Link to Module Folder](https://github.com/Solunska/spring-boot-learnings/tree/master/01.%20Spring%20Boot%20Overview)
 
-**Key Topics Covered:**
-1. Spring Boot DevTools and Actuator  
-   Learned how to enable automatic restarts, live reloads, and use Actuator for application monitoring and management.
-
-2. Spring Security  
-   Implemented authentication and authorization mechanisms for robust application security.
-
-3. Injecting Custom Application Properties  
-   Utilized the `application.properties` file for defining and injecting custom properties.
-
-4. Configuring the Spring Boot Server  
-   Customized server ports, context paths, and other server configurations.
-
----
-
 ### **Module 2: Spring Core**
 This module delves into the core functionalities of the Spring Framework, focusing on dependency injection and Spring bean management.
 
 [Link to Module Folder](https://github.com/Solunska/spring-boot-learnings/tree/master/02.%20Spring%20Core)
 
-**Key Topics Covered:**
-1. Dependency Injection Using Constructor Injection  
-   Implemented constructor injection to enforce immutability and ensure all dependencies are provided during object creation.
+### **Module 2: Spring Core**
+This module explores using Hibernate and JPA for building and managing CRUD operations, including working with annotations, object persistence, and database integration.
 
-2. Injecting Specific Bean Using `@Qualifier`  
-   Resolved ambiguity when multiple beans of the same type exist.
-
-3. Using the `@Primary` Annotation  
-   Designated a default bean to be injected when multiple candidates are available.
-
-4. Lazy Initialization  
-   Optimized resource usage by creating beans only when needed.
-
-5. Bean Scopes  
-   Defined the lifecycle and visibility of beans using scopes such as `singleton` and `prototype`.
-
-6. Bean Lifecycle Methods  
-   Used hooks like `@PostConstruct` and `@PreDestroy` to manage bean initialization and destruction.
-
-7. Java Bean Configuration  
-   Defined beans using Java-based configuration with `@Configuration` and `@Bean`.
+[Link to Module Folder](https://github.com/Solunska/spring-boot-learnings/tree/master/03.%20Hibernate%2C%20JPA%20CRUD)
 
 ---
 

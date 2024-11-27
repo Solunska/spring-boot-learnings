@@ -27,10 +27,20 @@ This module delves into the core functionalities of the Spring Framework, focusi
 
 [Link to Module Folder](https://github.com/Solunska/spring-boot-learnings/tree/master/02.%20Spring%20Core)
 
-### **Module 2: Spring Core**
+### **Module 3: Hibernate/JPA CRUD**
 This module explores using Hibernate and JPA for building and managing CRUD operations, including working with annotations, object persistence, and database integration.
 
 [Link to Module Folder](https://github.com/Solunska/spring-boot-learnings/tree/master/03.%20Hibernate%2C%20JPA%20CRUD)
+
+### **Module 4: REST CRUD APIs**
+This module covers creating RESTful services in Spring Boot, including REST controllers, JSON data binding, path variables, and exception handling with @ControllerAdvice.
+
+[Link to Module Folder](https://github.com/Solunska/spring-boot-learnings/tree/master/04.%20REST%20CRUD%20APIs)
+
+### **Module 5: REST CRUD Employees**
+This module focuses on CRUD operations for employee management using REST APIs, DAO and service layers, Spring Data JPA, and Spring Data REST
+
+[Link to Module Folder](https://github.com/Solunska/spring-boot-learnings/tree/master/05.%20REST%20CRUD%20Employees)
 
 ---
 

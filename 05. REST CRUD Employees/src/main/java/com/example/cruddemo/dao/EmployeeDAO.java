@@ -9,5 +9,4 @@ public interface EmployeeDAO {
     Employee getById(int id);
     Employee save(Employee employee);
     void deleteById(int id);
-
 }
